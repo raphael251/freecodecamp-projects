@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <img src="https://www.logoground.com/uploads6/dv6y201954602019-01-174943196Sewing%20Logo-01.jpg"
+            alt="Logo da empresa" id="header-img">
+        <nav id="nav-bar">
+            <a href="#diferenciais" class="nav-link">Diferenciais</a>
+            <a href="#como-funciona" class="nav-link">Como funciona</a>
+            <a href="#precos" class="nav-link">Preços</a>
+        </nav>
+    </header>
+    <section id="newsletter">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <label for="email">Receba nossas novidades e promoções!</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail..." required>
+            <input type="submit" value="Enviar" id="submit">
+        </form>
+    </section>
+
+    <section id="diferenciais">
+        <div class="diferencial-container">
+            <i class="diferencial-icone fas fa-funnel-dollar"></i>
+            <div class="diferencial-titulo-descricao">
+                <h1 class="diferencial-titulo">Economia</h1>
+                <p class="diferencial-descricao">
+                    Pensamos no melhor custo-benefício, fazendo com que você economize em
+                    seus ajustes e possa utilizar seu dinheiro com o que realmente importa!
+                </p>
+            </div>
+        </div>
+
+        <div class="diferencial-container">
+            <i class="diferencial-icone fas fa-hand-holding-heart"></i>
+            <div class="diferencial-titulo-descricao">
+                <h1 class="diferencial-titulo">Cuidado</h1>
+                <p class="diferencial-descricao">
+                    Temos todo o cuidado e carinho com sua roupa. Sabemos a importância que
+                    ela tem para nós e a trataremos como se fossem nossas.
+                </p>
+            </div>
+        </div>
+
+        <div class="diferencial-container">
+            <i class="diferencial-icone fas fa-shipping-fast"></i>
+            <div class="diferencial-titulo-descricao">
+                <h1 class="diferencial-titulo">Agilidade</h1>
+                <p class="diferencial-descricao">
+                    Temos prazos claros e definidos, e sempre buscamos melhorar nosso atendimento e serviço para
+                    entregar suas peças de forma ágil e eficiente.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="como-funciona">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/r4vszEz6WVg" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="precos">
+        <div class="card-container">
+            <h1 class="card-titulo">Barra Original</h1>
+            <h2 class="card-preco">R$ 20</h2>
+            <p class="card-descricao">
+                Barra original em calças jeans e de sarja.
+            </p>
+            <a href="#" class="card-interesse">Tenho interesse</a>
+        </div>
+
+        <div class="card-container">
+            <h1 class="card-titulo">Ajuste de camisa social</h1>
+            <h2 class="card-preco">R$ 35</h2>
+            <p class="card-descricao">
+                Ajuste nos ombros, mangas e costas.
+            </p>
+            <a href="#" class="card-interesse">Tenho interesse</a>
+        </div>
+
+        <div class="card-container">
+            <h1 class="card-titulo">Troca ou inserção de zíper</h1>
+            <h2 class="card-preco">R$ 25</h2>
+            <p class="card-descricao">
+                Preço com o zíper comprado por nós. Caso seja algum tecido específico, poderão haver ajustes no valor.
+            </p>
+            <a href="#" class="card-interesse">Tenho interesse</a>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div>
+            Desenvolvido por <a href="#">Raphael Passos</a>.
+        </div>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

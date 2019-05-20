@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Pesquisa</h1>
+    <main id="main">
+        <p id="description">
+            Muito obrigado por ter entrado em nosso formulário :). Por favor,
+            preencha todos os campos.
+        </p>
+
+        <form id="survey-form">
+
+            <div class="form-group">
+                <label for="name" id="name-label" class="question-title-label">Nome:</label>
+                <input type="text" name="name" id="name" required placeholder="Digite seu nome (ex.: Edivaldo Braga)" />
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="email-label" class="question-title-label">Email:</label>
+                <input type="email" name="email" id="email" required
+                    placeholder="Digite seu email (ex.: edivaldobraga67@dominio.com.br)" />
+            </div>
+
+            <div class="form-group">
+                <label for="number" id="number-label" class="question-title-label">Idade:</label>
+                <input type="number" name="number" id="number" min="18" max="80" required
+                    placeholder="Digite sua idade (ex.: 21)" />
+            </div>
+
+            <div class="form-group">
+                <label class="question-title-label">Qual instrumento você toca?</label>
+                <select name="" id="dropdown">
+                    <option value="1">Violão</option>
+                    <option value="2">Guitarra</option>
+                    <option value="3">Baixo</option>
+                    <option value="4">Bateria</option>
+                    <option value="4">Teclado</option>
+                    <option value="4">Não toco</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="question-title-label">Qual é seu estilo musical preferido?</label>
+
+                <div class="opcao">
+                    <input type="radio" name="radio-group" id="rd01" value="1" />
+                    <label for="rd01">Rock</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" name="radio-group" id="rd02" value="2" />
+                    <label for="rd02">Samba</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" name="radio-group" id="rd03" value="3" />
+                    <label for="rd03">Pop</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" name="radio-group" id="rd04" value="4" />
+                    <label for="rd04">Blues</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="question-title-label">Quais dessas bandas você reconhece?</label>
+
+                <div class="opcao">
+                    <input type="checkbox" name="check-group" id="chk01" value="1" />
+                    <label for="chk01">Raça Negra</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="checkbox" name="check-group" id="chk02" value="2" />
+                    <label for="chk02">Iron Maiden</label>
+                </div>
+                
+                <div class="opcao">
+                    <input type="checkbox" name="check-group" id="chk03" value="3" />
+                    <label for="chk03">Black Sabbath</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="checkbox" name="check-group" id="chk04" value="4" />
+                    <label for="chk04">Forró Boys</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="question-title-label">Fique à vontade para nos deixar algum comentário adicional:</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <button type="submit" id="submit"><strong>Enviar</strong></button>
+        </form>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
